@@ -4,6 +4,7 @@
 Treat an LLM like an unreliable third-party service.
 
 ### What I'm Building
+FastAPI service that:
 - Accepts text
 - Calls OpenAI
 - Returns structured JSON
@@ -14,10 +15,17 @@ Treat an LLM like an unreliable third-party service.
 - OpenAI chat completions
 - JSON schema outputs
 - Logging basics
+- API error handling
+
+### Tools
+- OpenAI API
+- FastAPI
+- Postgres (optional)
 
 ### Key Decisions
 
 ### Failure Modes Observed
 
 ### What I'd Improve Next
+
 
